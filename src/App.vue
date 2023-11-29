@@ -1,16 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>
 
@@ -22,5 +18,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-color: #121214;
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+  linear-gradient(to bottom, #80808012 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 </style>
